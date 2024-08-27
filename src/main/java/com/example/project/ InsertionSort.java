@@ -2,7 +2,6 @@ package com.example.project;
 
 class InsertionSort {
     public static void sort(int[] arr) {
-        // TODO: Implement insertion sort algorithm here
         int n = arr.length;
         for (int i = 1; i < n; i++) {
             int key = arr[i];
